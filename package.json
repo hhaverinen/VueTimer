@@ -1,0 +1,22 @@
+{
+  "name": "vuetimer",
+  "version": "1.0.0",
+  "description": "Countdown timer before another project's go live. Also for getting familiar with Vue.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhaverinen/VueTimer.git"
+  },
+  "author": "Henri Haverinen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hhaverinen/VueTimer/issues"
+  },
+  "homepage": "https://github.com/hhaverinen/VueTimer#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
