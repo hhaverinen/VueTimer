@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Timer/>
+    <Timer date="May 31, 2018"/>
   </div>
 </template>
 
