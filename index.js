@@ -4,7 +4,7 @@ const path = require('path');
 const port = process.env.PORT || 8080;
 
 // static files
-app.use(express.static(path.join(__dirname, 'views')));
+app.use(express.static(path.join(__dirname, 'dist')));
 
 // start server
 app.listen(port, () => {
