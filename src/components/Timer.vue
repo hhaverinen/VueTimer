@@ -58,5 +58,7 @@ export default {
 .block {
   display: inline-block;
   padding: 10px;
+  //border-radius: 2px;
+  //background-color: gray;
 }
 </style>
