@@ -24,21 +24,22 @@ export default {
   name: 'Timer',
   data() {
     return {
-      now: new Date()
+      now: new Date(),
+      d_day: new Date(2018,4,31)
     }
   },
   computed: {
     seconds() {
-        return this.now.getSeconds();
+        return Math.floor(((this.d_day - this.now) / 1000) % 60);
     },
     minutes() {
-        return this.now.getMinutes();
+        return Math.floor(((this.d_day - this.now) / (1000 * 60)) % 60);
     },
     hours() {
-        return this.now.getHours();
+        return Math.floor(((this.d_day - this.now) / (1000 * 60 * 60)) % 24);
     },
     days() {
-        return this.now.getDate();
+        return Math.floor((this.d_day - this.now) / (1000 * 60 * 60 * 24));
     }
   },
   mounted() {
