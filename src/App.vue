@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1 class="header-text"><span>Project</span> GO LIVE in:</h1>
-    <Timer date="May 31, 2019"/>
+    <Timer/>
   </div>
 </template>
 
