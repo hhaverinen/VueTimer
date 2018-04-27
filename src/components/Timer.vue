@@ -25,7 +25,7 @@ export default {
   data() {
     return {
       now: new Date(),
-      d_day: new Date(2018,4,21)
+      d_day: new Date(2018,5,7)
     }
   },
   computed: {
